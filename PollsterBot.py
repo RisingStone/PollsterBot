@@ -12,7 +12,7 @@ reddit = praw.Reddit(user_agent='Pollster')
 reddit.login('pollster_bot', '1QA2WS3ed', disable_warning=True)
 default_sub = 'Pollster_Bot'
 bot_name = 'pollster_bot'
-version = '0.2b'
+version = '0.3b'
 
 # Huffington post http://elections.huffingtonpost.com/pollster/api
 uri = 'http://elections.huffingtonpost.com/pollster/api/charts.json'
@@ -143,8 +143,8 @@ def footer():
     Builds bot header
     :return:
     '''
-    foot = '^^Pollster bot ver. {}'.format(version)
-    foot += '\n\nSummon pollster bot by typing in Pollster_Bot and then any state or states.\nEx. Pollster Bot CA Texas Maine RI'
+    foot = '^^Pollster ^^bot ^^ver. ^^{}'.format(version)
+    foot += '\n\nSummon pollster bot by typing in Pollster_Bot and then any state or states.\n\nEx. Pollster Bot CA Texas Maine RI'
     foot += "\n\n***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).***"
     return foot
 
