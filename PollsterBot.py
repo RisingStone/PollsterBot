@@ -227,12 +227,17 @@ def bot_action(comment, abbrevs):
                 response += format_poll(poll)
 
     response += footer()
-    comment.reply(response)
 
     #log
     log_out = ''
     log_out += 'Time: {} \nAuthor: {} \nBody: {}\n States: {} \nResponse: {} \n'.format((datetime.timedelta(milliseconds=(time.time()))), comment.author, comment.body, abbrevs, response)
     logging.info(log_out)
+
+    try:
+        comment.reply(response)
+    except praw.errors.RateLimitExceeded:
+        logging.WARN("RateLimitExceeded!!! Response not posted!!!")
+
     print comment.author
     print comment.body
     print abbrevs
