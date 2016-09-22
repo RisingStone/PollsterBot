@@ -48,6 +48,7 @@ for sub in subs:
 
 # create logger
 logger = logging.getLogger('Pollster_Bot')
+logging.basicConfig(filename=os.path.join(os.path.dirname(__file__), 'PollsterBotLog.txt'))
 logger.setLevel(logging.INFO)
 # create console handler and set level to debug
 ch = logging.StreamHandler()
