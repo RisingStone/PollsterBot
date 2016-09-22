@@ -30,8 +30,8 @@
       <file leaf-file-name="PollsterBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PollsterBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8134328" vertical-offset="3891" max-vertical-offset="4695">
-              <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="304" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.6268657" vertical-offset="3906" max-vertical-offset="4710">
+              <caret line="294" column="23" selection-start-line="294" selection-start-column="23" selection-end-line="294" selection-end-column="23" />
               <folding>
                 <element signature="e#26#37#0" expanded="true" />
               </folding>
@@ -62,8 +62,8 @@
       <file leaf-file-name="PollsterBotLog.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PollsterBotLog.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7819" max-vertical-offset="8610">
-              <caret line="567" column="69" selection-start-line="567" selection-start-column="69" selection-end-line="567" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="7849" max-vertical-offset="8640">
+              <caret line="569" column="69" selection-start-line="569" selection-start-column="69" selection-end-line="569" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -113,6 +113,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/PollsterBotLog.txt" />
         <option value="$PROJECT_DIR$/data/subs.json" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/PollsterBot.py" />
       </list>
     </option>
@@ -425,16 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Daemon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2040">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="e#49#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/huffingtonCharts.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="653">
@@ -499,14 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/phrases.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21565495" vertical-offset="0" max-vertical-offset="626">
@@ -555,18 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/login.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PollsterBotLog.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7819" max-vertical-offset="8610">
-          <caret line="567" column="69" selection-start-line="567" selection-start-column="69" selection-end-line="567" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="7849" max-vertical-offset="8640">
+          <caret line="569" column="69" selection-start-line="569" selection-start-column="69" selection-end-line="569" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -595,10 +570,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/login.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Daemon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1052" max-vertical-offset="2040">
+          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+          <folding>
+            <element signature="e#49#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PollsterBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8134328" vertical-offset="3891" max-vertical-offset="4695">
-          <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="304" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.6268657" vertical-offset="3906" max-vertical-offset="4710">
+          <caret line="294" column="23" selection-start-line="294" selection-start-column="23" selection-end-line="294" selection-end-column="23" />
           <folding>
             <element signature="e#26#37#0" expanded="true" />
           </folding>

@@ -286,13 +286,13 @@ class MyDaemon(Daemon):
             mainLoop()
 
 
-
 if __name__ == "__main__":
     daemon = MyDaemon('/tmp/daemon-pollster.pid')
     if len(sys.argv) == 2:
         if 'start' == sys.argv[1]:
             daemon.start()
         elif 'stop' == sys.argv[1]:
+            logger.info('Shutting down')
             daemon.stop()
         elif 'restart' == sys.argv[1]:
             daemon.restart()
@@ -301,7 +301,8 @@ if __name__ == "__main__":
             sys.exit(2)
         sys.exit(0)
     else:
-        # login()
-        # mainLoop()
+        login()
+        mainLoop()
+        logger.info('Shutting down')
         print "usage: %s start|stop|restart" % sys.argv[0]
         sys.exit(2)

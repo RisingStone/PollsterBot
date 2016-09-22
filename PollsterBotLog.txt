@@ -566,3 +566,5 @@ Ex. Pollster Bot CA Texas Maine RI
 ***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).*** 
 
 2016-09-22 13:50:47,894 - Pollster_Bot - INFO - Crawl time: 15 seconds
+2016-09-22 13:59:38,473 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here.
+2016-09-22 13:59:40,528 - Pollster_Bot - INFO - Crawl time: 2 seconds
