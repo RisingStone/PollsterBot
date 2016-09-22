@@ -4,8 +4,11 @@ import requests
 import json
 import os
 from Daemon import Daemon
-import sys, time
+import sys
+import time
+import datetime
 import random
+import logging
 
 # Reddit https://praw.readthedocs.io/en/stable/pages/comment_parsing.html
 reddit = praw.Reddit(user_agent='Pollster')
@@ -43,6 +46,18 @@ subs = load_json_file('data/subs.json')['subs']
 for sub in subs:
     default_subs += '+' + sub
 
+# create logger
+logger = logging.getLogger('Pollster_Bot')
+logger.setLevel(logging.INFO)
+# create console handler and set level to debug
+ch = logging.StreamHandler()
+ch.setLevel(logging.INFO)
+# create formatter
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# add formatter to ch
+ch.setFormatter(formatter)
+# add ch to logger
+logger.addHandler(ch)
 
 def get_greeting():
     return random.choice(greetings)
@@ -215,6 +230,9 @@ def bot_action(comment, abbrevs):
     comment.reply(response)
 
     #log
+    log_out = ''
+    log_out += 'Time: {} \nAuthor: {} \nBody: {}\n States: {} \nResponse: {} \n'.format((datetime.timedelta(milliseconds=(time.time()))), comment.author, comment.body, abbrevs, response)
+    logging.info(log_out)
     print comment.author
     print comment.body
     print abbrevs
@@ -224,11 +242,18 @@ def bot_action(comment, abbrevs):
 def mainLoop():
     submissions = get_submissions(default_subs, submission_limit=200)
     for submission in submissions:
+        print 'Crawling Submission ' + submission.title
+        time_start = time.time()
         comments = get_flat_comments(submission, comment_limit=None)
         for comment in comments:
+            print 'Crawling comment ' + comment.body[0:200]
             check, abbrevs = check_condition(comment)
             if check:
                 bot_action(comment, abbrevs)
+        time_end = time.time()
+        crawl_time = 'Crawl time: ' + datetime.timedelta(milliseconds=(time_end - time_start))
+        logging.info(crawl_time)
+        print crawl_time
 
 
 class MyDaemon(Daemon):
