@@ -290,19 +290,21 @@ if __name__ == "__main__":
     daemon = MyDaemon('/tmp/daemon-pollster.pid')
     if len(sys.argv) == 2:
         if 'start' == sys.argv[1]:
+            logger.info('Starting Pollster bot ver. ' + version)
             daemon.start()
         elif 'stop' == sys.argv[1]:
-            logger.info('Shutting down')
+            logger.info('Shutting down Pollster bot ver. ' + version)
             daemon.stop()
         elif 'restart' == sys.argv[1]:
+            logger.info('Restarting Pollster bot ver. ' + version)
             daemon.restart()
         else:
             print "Unknown command"
             sys.exit(2)
         sys.exit(0)
     else:
-        login()
-        mainLoop()
-        logger.info('Shutting down')
+        # login()
+        # mainLoop()
+        logger.info('Shutting down: Unknown command')
         print "usage: %s start|stop|restart" % sys.argv[0]
         sys.exit(2)
