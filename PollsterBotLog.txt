@@ -27,3 +27,542 @@
 2016-09-22 10:08:01,307 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here
 2016-09-22 10:08:02,790 - Pollster_Bot - INFO - Crawl time: 01:00:00
 2016-09-22 10:08:02,790 - Pollster_Bot - INFO - Crawling Submission BLM rioters strip, beat, and drag a random white man through a parking garage: How is this not on the front page?
+2016-09-22 12:09:36,443 - Pollster_Bot - INFO - Crawling Submission House panel votes to hold Clinton tech aide Bryan Pagliano in contempt
+2016-09-22 12:11:15,573 - Pollster_Bot - INFO - Crawl time: 0 seconds
+2016-09-22 12:11:15,573 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here
+2016-09-22 12:11:17,675 - Pollster_Bot - INFO - Crawl time: 0 seconds
+2016-09-22 12:11:17,675 - Pollster_Bot - INFO - Crawling Submission BREAKING NEWS: Hillary aide Pagliano found alive and well and on the run from Congress
+2016-09-22 12:11:20,092 - Pollster_Bot - INFO - Crawl time: 0 seconds
+2016-09-22 12:11:20,092 - Pollster_Bot - INFO - Crawling Submission Trump Campaign Goes Into Spending Mode In Final Weeks Of Election Race
+2016-09-22 12:11:40,764 - Pollster_Bot - INFO - Crawling Submission House panel votes to hold Clinton tech aide Bryan Pagliano in contempt
+2016-09-22 12:13:21,916 - Pollster_Bot - INFO - Crawl time: 101 ms
+2016-09-22 12:13:21,916 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here
+2016-09-22 12:13:24,059 - Pollster_Bot - INFO - Crawl time: 3 ms
+2016-09-22 12:13:24,059 - Pollster_Bot - INFO - Crawling Submission BREAKING NEWS: Hillary aide Pagliano found alive and well and on the run from Congress
+2016-09-22 12:13:27,043 - Pollster_Bot - INFO - Crawl time: 3 ms
+2016-09-22 12:13:27,043 - Pollster_Bot - INFO - Crawling Submission Trump Campaign Goes Into Spending Mode In Final Weeks Of Election Race
+2016-09-22 12:14:49,106 - Pollster_Bot - INFO - Crawling Submission House panel votes to hold Clinton tech aide Bryan Pagliano in contempt
+2016-09-22 12:16:35,945 - Pollster_Bot - INFO - Crawl time: 106 seconds
+2016-09-22 12:16:35,945 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here
+2016-09-22 12:16:38,017 - Pollster_Bot - INFO - Crawl time: 3 seconds
+2016-09-22 12:16:38,017 - Pollster_Bot - INFO - Crawling Submission BREAKING NEWS: Hillary aide Pagliano found alive and well and on the run from Congress
+2016-09-22 12:16:40,777 - Pollster_Bot - INFO - Crawl time: 2 seconds
+2016-09-22 12:16:40,777 - Pollster_Bot - INFO - Crawling Submission Trump Campaign Goes Into Spending Mode In Final Weeks Of Election Race
+2016-09-22 12:19:14,017 - Pollster_Bot - INFO - Crawl time: 154 seconds
+2016-09-22 12:19:14,017 - Pollster_Bot - INFO - Crawling Submission Statement on Hillary Clinton's Death Tax Hypocrisy
+2016-09-22 12:19:16,829 - Pollster_Bot - INFO - Crawl time: 2 seconds
+2016-09-22 12:19:16,829 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 12:19:34,033 - Pollster_Bot - INFO - Crawl time: 18 seconds
+2016-09-22 12:19:34,033 - Pollster_Bot - INFO - Crawling Submission The Dalai Lama says "Refugees fleeing Middle East should return home to 'rebuild their own country"
+2016-09-22 12:20:30,013 - Pollster_Bot - INFO - Crawl time: 56 seconds
+2016-09-22 12:20:30,013 - Pollster_Bot - INFO - Crawling Submission LIVE Stream: Donald Trump Rally in Pittsburgh, Pennsylvania (9/22/2016)
+2016-09-22 12:20:32,940 - Pollster_Bot - INFO - Crawl time: 2 seconds
+2016-09-22 12:20:32,940 - Pollster_Bot - INFO - Crawling Submission Livestream of Oversight Committee Hearings, starting now.
+2016-09-22 12:36:00,237 - Pollster_Bot - INFO - Crawl time: 928 seconds
+2016-09-22 12:36:00,237 - Pollster_Bot - INFO - Crawling Submission GQ magazine on Trump voters: "Fuck you. No, seriously. Go fuck yourselves." - Boycott this piece of shit magazine.
+2016-09-22 12:39:03,285 - Pollster_Bot - INFO - Crawl time: 183 seconds
+2016-09-22 12:39:03,285 - Pollster_Bot - INFO - Crawling Submission WHITE MAN DRAGGED, BEATEN BEGGING FOR MERCY - MEDIA BLACKOUT
+2016-09-22 12:40:27,704 - Pollster_Bot - INFO - Crawl time: 84 seconds
+2016-09-22 12:40:27,704 - Pollster_Bot - INFO - Crawling Submission Based Katie Hopkins on BLM in NC
+2016-09-22 12:40:30,926 - Pollster_Bot - INFO - Crawl time: 3 seconds
+2016-09-22 12:40:30,926 - Pollster_Bot - INFO - Crawling Submission BLM rioters strip, beat, and drag a random white man through a parking garage: How is this not on the front page?
+2016-09-22 12:52:31,125 - Pollster_Bot - INFO - Crawl time: 721 seconds
+2016-09-22 12:52:31,126 - Pollster_Bot - INFO - Crawling Submission Oversight orders Reddit to preserve deleted posts in Clinton investigation
+2016-09-22 12:53:15,318 - Pollster_Bot - INFO - Crawl time: 44 seconds
+2016-09-22 12:53:15,318 - Pollster_Bot - INFO - Crawling Submission America Is About To Lose The Internet. In Just 9 Days Obama Will Give Control Of The Internet To The UN. All of the internet will turn into Twitter level censorship. Where are the free speech internet campaigns now? We're going to lose the internet to globalists, China & the Saudis. WHAT A SELL OUT!
+2016-09-22 12:55:11,730 - Pollster_Bot - INFO - Crawl time: 116 seconds
+2016-09-22 12:55:11,731 - Pollster_Bot - INFO - Crawling Submission When Dems try to talk over Based Chaffetz
+2016-09-22 12:55:14,697 - Pollster_Bot - INFO - Crawl time: 3 seconds
+2016-09-22 12:55:14,697 - Pollster_Bot - INFO - Crawling Submission Japan a country almost completely closed to foreign muslim immigration has zero Islamic terrorism. Coincidence? You fucking know it isn't.
+2016-09-22 12:55:16,978 - Pollster_Bot - INFO - Crawl time: 2 seconds
+2016-09-22 12:55:16,978 - Pollster_Bot - INFO - Crawling Submission Wew Lads! Trump +5 in a National Poll
+2016-09-22 12:57:23,272 - Pollster_Bot - INFO - Crawl time: 127 seconds
+2016-09-22 12:57:23,272 - Pollster_Bot - INFO - Crawling Submission DAFUQ?!? I just watched Hillary's Orlando speech where she asked, "Why am I not 50 points up?" NO WAY SOMEONE WHO IS SO UNCHARISMATIC SCREAMS THEIR WAY INTO MY WHITE HOUSE!!
+2016-09-22 12:58:23,803 - Pollster_Bot - INFO - Crawl time: 60 seconds
+2016-09-22 12:58:23,803 - Pollster_Bot - INFO - Crawling Submission This is what #BlackLivesMatter is protesting....
+2016-09-22 12:58:26,614 - Pollster_Bot - INFO - Crawl time: 3 seconds
+2016-09-22 12:58:26,615 - Pollster_Bot - INFO - Crawling Submission Hillary tells reporter she refuses to take a neurocognitive test
+2016-09-22 13:00:33,290 - Pollster_Bot - INFO - Crawl time: 127 seconds
+2016-09-22 13:00:33,290 - Pollster_Bot - INFO - Crawling Submission Just weeks after calling the POTUS a 'Son Of A Whore' the President of the Phillipines steps up his game and declares 'Fuck you EU!'
+2016-09-22 13:00:42,811 - Pollster_Bot - INFO - Crawl time: 9 seconds
+2016-09-22 13:00:42,811 - Pollster_Bot - INFO - Crawling Submission Someone said Spez looked like Bad Luck Brian. So I made a template of that. Behold Bad Luck Spez. Feel free to use it and meme away.
+2016-09-22 13:00:45,285 - Pollster_Bot - INFO - Crawl time: 3 seconds
+2016-09-22 13:00:45,285 - Pollster_Bot - INFO - Crawling Submission I'm going to be on Ukranian TV debating Trump vs Clinton
+2016-09-22 13:00:57,046 - Pollster_Bot - INFO - Crawl time: 12 seconds
+2016-09-22 13:00:57,046 - Pollster_Bot - INFO - Crawling Submission Trey Gowdy destroys Clinton IT Staffet Pagliano -- "The witness does not get to pick and choose which legal process he's going to follow"
+2016-09-22 13:00:59,062 - Pollster_Bot - INFO - Crawl time: 2 seconds
+2016-09-22 13:15:01,016 - Pollster_Bot - INFO - Crawling Submission House panel votes to hold Clinton tech aide Bryan Pagliano in contempt
+2016-09-22 13:17:08,014 - Pollster_Bot - INFO - Crawl time: 127 seconds
+2016-09-22 13:17:08,014 - Pollster_Bot - INFO - Crawling Submission Testing
+2016-09-22 13:17:12,070 - Pollster_Bot - INFO - Time: 17 days, 1:36:15.432071 
+Author: illbuyajuicer 
+Body: Pollster bot show me MA MA MA MA TX TX TX
+ States: [u'MA', u'TX'] 
+Response: 
+ ^^Polls ^^fetched ^^from ^^[http://elections.huffingtonpost.com/](http://elections.huffingtonpost.com/).
+
+***You rang?***
+
+.
+
+.
+
+
+
+***Massachusetts Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 57.7 | Dem 
+Trump | 31.1 | Rep 
+Other | 16.0 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-massachusetts-president-trump-vs-clinton
+
+
+
+***Texas Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Trump | 47.2 | Rep 
+Clinton | 38.1 | Dem 
+Other | 8.0 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-texas-president-trump-vs-clinton
+
+^^Pollster ^^bot ^^ver. ^^0.3b
+
+Summon pollster bot by typing in Pollster_Bot and then any state or states.
+
+Ex. Pollster Bot CA Texas Maine RI
+
+***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).*** 
+
+2016-09-22 13:17:12,270 - Pollster_Bot - INFO - Crawl time: 4 seconds
+2016-09-22 13:17:12,270 - Pollster_Bot - INFO - Crawling Submission Trump Campaign Goes Into Spending Mode In Final Weeks Of Election Race
+2016-09-22 13:19:42,291 - Pollster_Bot - INFO - Crawling Submission House panel votes to hold Clinton tech aide Bryan Pagliano in contempt
+2016-09-22 13:19:50,927 - Pollster_Bot - INFO - Crawling Submission House panel votes to hold Clinton tech aide Bryan Pagliano in contempt
+2016-09-22 13:22:02,012 - Pollster_Bot - INFO - Crawling Submission Testing
+2016-09-22 13:22:03,902 - Pollster_Bot - INFO - Crawling Submission Trump Campaign Goes Into Spending Mode In Final Weeks Of Election Race
+2016-09-22 13:25:36,231 - Pollster_Bot - INFO - Crawling Submission BREAKING NEWS: Hillary aide Pagliano found alive and well and on the run from Congress
+2016-09-22 13:25:39,070 - Pollster_Bot - INFO - Crawling Submission Statement on Hillary Clinton's Death Tax Hypocrisy
+2016-09-22 13:25:41,020 - Pollster_Bot - INFO - Crawling Submission TFW front page of The_Donald doesn't have a single Pepe
+2016-09-22 13:25:43,193 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 13:26:07,334 - Pollster_Bot - INFO - Crawling Submission Japan a country almost completely closed to foreign muslim immigration has zero Islamic terrorism. Coincidence? You fucking know it isn't.
+2016-09-22 13:26:10,463 - Pollster_Bot - INFO - Crawling Submission Quinnipiac Colorado (Head 2 Head): Crooked 47 Trump 47
+2016-09-22 13:29:42,597 - Pollster_Bot - INFO - Crawling Submission House panel votes to hold Clinton tech aide Bryan Pagliano in contempt
+2016-09-22 13:31:59,247 - Pollster_Bot - INFO - Crawl time: 137 seconds
+2016-09-22 13:31:59,247 - Pollster_Bot - INFO - Crawling Submission Trump Campaign Goes Into Spending Mode In Final Weeks Of Election Race
+2016-09-22 13:35:31,251 - Pollster_Bot - INFO - Crawl time: 212 seconds
+2016-09-22 13:35:31,251 - Pollster_Bot - INFO - Crawling Submission TFW front page of The_Donald doesn't have a single Pepe
+2016-09-22 13:35:34,826 - Pollster_Bot - INFO - Crawl time: 3 seconds
+2016-09-22 13:35:34,826 - Pollster_Bot - INFO - Crawling Submission Statement on Hillary Clinton's Death Tax Hypocrisy
+2016-09-22 13:35:37,099 - Pollster_Bot - INFO - Crawl time: 3 seconds
+2016-09-22 13:35:37,100 - Pollster_Bot - INFO - Crawling Submission BREAKING NEWS: Hillary aide Pagliano found alive and well and on the run from Congress
+2016-09-22 13:35:38,579 - Pollster_Bot - INFO - Crawl time: 1 seconds
+2016-09-22 13:35:38,579 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 13:35:58,806 - Pollster_Bot - INFO - Crawling Submission House panel votes to hold Clinton tech aide Bryan Pagliano in contempt
+2016-09-22 13:38:13,178 - Pollster_Bot - INFO - Crawl time: 135 seconds
+2016-09-22 13:38:13,178 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here.
+2016-09-22 13:38:17,733 - Pollster_Bot - INFO - Time: 17 days, 1:36:16.697734 
+Author: illbuyajuicer 
+Body: Pollster_Bot show me CA Colorado Maine FL.
+ States: [u'CO', u'ME', u'CA', u'FL'] 
+Response: 
+ ^^Polls ^^fetched ^^from ^^[http://elections.huffingtonpost.com/](http://elections.huffingtonpost.com/).
+
+***I'm back!***
+
+.
+
+.
+
+
+
+***Colorado Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 42.2 | Dem 
+Trump | 38.2 | Rep 
+Other | 14.3 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-colorado-president-trump-vs-clinton
+
+
+
+***Maine Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 40.4 | Dem 
+Trump | 35.1 | Rep 
+Other | 14.3 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-maine-president-trump-vs-clinton
+
+
+
+***California Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 53.8 | Dem 
+Trump | 28.9 | Rep 
+Other | 9.4 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-california-presidential-general-election-trump-vs-clinton
+
+
+
+***Florida Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 44.8 | Dem 
+Trump | 43.4 | Rep 
+Other | 6.3 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-florida-presidential-general-election-trump-vs-clinton
+
+^^Pollster ^^bot ^^ver. ^^0.3b
+
+Summon pollster bot by typing in Pollster_Bot and then any state or states.
+
+Ex. Pollster Bot CA Texas Maine RI
+
+***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).*** 
+
+2016-09-22 13:38:19,908 - Pollster_Bot - INFO - Time: 17 days, 1:36:16.699908 
+Author: illbuyajuicer 
+Body: pollster bot California IA TX PA New York
+ States: [u'CA', u'NY', u'IA', u'PA', u'TX'] 
+Response: 
+ ^^Polls ^^fetched ^^from ^^[http://elections.huffingtonpost.com/](http://elections.huffingtonpost.com/).
+
+***I'm back!***
+
+.
+
+.
+
+
+
+***California Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 53.8 | Dem 
+Trump | 28.9 | Rep 
+Other | 9.4 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-california-presidential-general-election-trump-vs-clinton
+
+
+
+***New York Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 51.1 | Dem 
+Trump | 31.6 | Rep 
+Other | 6.6 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-new-york-president-trump-vs-clinton
+
+
+
+***Iowa Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Trump | 40.2 | Rep 
+Clinton | 39.5 | Dem 
+Other | 10.6 | N/A 
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-iowa-president-trump-vs-clinton
+
+
+
+***Pennsylvania Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 45.9 | Dem 
+Trump | 40.0 | Rep 
+Other | 7.0 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-pennsylvania-president-trump-vs-clinton
+
+
+
+***Texas Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Trump | 47.2 | Rep 
+Clinton | 38.1 | Dem 
+Other | 8.0 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-texas-president-trump-vs-clinton
+
+^^Pollster ^^bot ^^ver. ^^0.3b
+
+Summon pollster bot by typing in Pollster_Bot and then any state or states.
+
+Ex. Pollster Bot CA Texas Maine RI
+
+***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).*** 
+
+2016-09-22 13:38:21,137 - Pollster_Bot - INFO - Time: 17 days, 1:36:16.701138 
+Author: illbuyajuicer 
+Body: Pollster Bot I need to know the Cuckington Posts latest poll on Georgia and AL.
+ States: [u'GA', u'AL'] 
+Response: 
+ ^^Polls ^^fetched ^^from ^^[http://elections.huffingtonpost.com/](http://elections.huffingtonpost.com/).
+
+***Here I am again.***
+
+.
+
+.
+
+
+
+***Georgia Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Trump | 44.9 | Rep 
+Clinton | 41.6 | Dem 
+Other | 8.6 |  
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-georgia-president-trump-vs-clinton
+
+
+
+***Alabama Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-alabama-president-trump-vs-clinton
+
+^^Pollster ^^bot ^^ver. ^^0.3b
+
+Summon pollster bot by typing in Pollster_Bot and then any state or states.
+
+Ex. Pollster Bot CA Texas Maine RI
+
+***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).*** 
+
+2016-09-22 13:38:22,327 - Pollster_Bot - INFO - Crawl time: 9 seconds
+2016-09-22 13:38:22,327 - Pollster_Bot - INFO - Crawling Submission TFW front page of The_Donald doesn't have a single Pepe
+2016-09-22 13:38:25,458 - Pollster_Bot - INFO - Crawl time: 3 seconds
+2016-09-22 13:38:25,458 - Pollster_Bot - INFO - Crawling Submission Trump Campaign Goes Into Spending Mode In Final Weeks Of Election Race
+2016-09-22 13:41:25,354 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here.
+2016-09-22 13:44:33,727 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here.
+2016-09-22 13:45:57,832 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here.
+2016-09-22 13:46:01,632 - Pollster_Bot - INFO - Time: 17 days, 1:36:17.161632 
+Author: illbuyajuicer 
+Body: This even works if you just talk about states like IA OH NC ME and then edit it to say the name. 
+
+
+Edit: Pollster Bot tell these cucks about the polls!!! 
+ States: [u'IA', u'OH', u'NC', u'ME'] 
+Response: 
+ ^^Polls ^^fetched ^^from ^^[http://elections.huffingtonpost.com/](http://elections.huffingtonpost.com/).
+
+***MAGA!!!***
+
+.
+
+.
+
+
+
+***Iowa Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Trump | 39.9 | Rep 
+Clinton | 37.6 | Dem 
+Other | 13.1 | N/A 
+
+
+Date of poll: 2016-09-22T20:40:59.000Z 
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-iowa-president-trump-vs-clinton
+
+
+
+***Ohio Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Trump | 42.1 | Rep 
+Clinton | 41.7 | Dem 
+Other | 8.3 |  
+
+
+Date of poll: 2016-09-22T05:21:06.000Z 
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-ohio-president-trump-vs-clinton
+
+
+
+***North Carolina Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 43.4 | Dem 
+Trump | 43.0 | Rep 
+Other | 5.3 |  
+
+
+Date of poll: 2016-09-22T15:17:44.000Z 
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-north-carolina-president-trump-vs-clinton
+
+
+
+***Maine Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 40.4 | Dem 
+Trump | 35.1 | Rep 
+Other | 14.3 |  
+
+
+Date of poll: 2016-09-22T01:50:35.000Z 
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-maine-president-trump-vs-clinton
+
+^^Pollster ^^bot ^^ver. ^^0.3b
+
+Summon pollster bot by typing in Pollster_Bot and then any state or states.
+
+Ex. Pollster Bot CA Texas Maine RI
+
+***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).*** 
+
+2016-09-22 13:46:01,923 - Pollster_Bot - INFO - Crawl time: 4 seconds
+2016-09-22 13:50:32,245 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here.
+2016-09-22 13:50:37,075 - Pollster_Bot - INFO - Time: 17 days, 1:36:17.437076 
+Author: illbuyajuicer 
+Body: Pollster_Bot show me CA Colorado Maine FL with date!!!
+ States: [u'CO', u'ME', u'CA', u'FL'] 
+Response: 
+ ^^Polls ^^fetched ^^from ^^[http://elections.huffingtonpost.com/](http://elections.huffingtonpost.com/).
+
+***Here I am again.***
+
+.
+
+.
+
+
+
+***Colorado Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 42.2 | Dem 
+Trump | 38.2 | Rep 
+Other | 14.3 |  
+
+
+Date of poll: Sep 22 2016 07:46PM 
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-colorado-president-trump-vs-clinton
+
+
+
+***Maine Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 40.4 | Dem 
+Trump | 35.1 | Rep 
+Other | 14.3 |  
+
+
+Date of poll: Sep 22 2016 01:50AM 
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-maine-president-trump-vs-clinton
+
+
+
+***California Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 53.8 | Dem 
+Trump | 28.9 | Rep 
+Other | 9.4 |  
+
+
+Date of poll: Sep 22 2016 05:31AM 
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-california-presidential-general-election-trump-vs-clinton
+
+
+
+***Florida Poll:***
+
+
+Choice | Percentage | Party
+------|----------|-----
+Clinton | 44.8 | Dem 
+Trump | 43.4 | Rep 
+Other | 6.3 |  
+
+
+Date of poll: Sep 22 2016 07:17PM 
+
+^^Link ^^to ^^poll ^^http://elections.huffingtonpost.com/pollster/2016-florida-presidential-general-election-trump-vs-clinton
+
+^^Pollster ^^bot ^^ver. ^^0.3b
+
+Summon pollster bot by typing in Pollster_Bot and then any state or states.
+
+Ex. Pollster Bot CA Texas Maine RI
+
+***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).*** 
+
+2016-09-22 13:50:47,894 - Pollster_Bot - INFO - Crawl time: 15 seconds

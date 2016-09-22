@@ -3,8 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# text files
+data/login.json
+PollsterBotLog.txt
+
 # C extensions
 *.so
+
+# pycharm
+.idea/
 
 # Distribution / packaging
 .Python

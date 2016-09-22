@@ -7,12 +7,12 @@ from Daemon import Daemon
 import sys
 import time
 import datetime
+from dateutil import parser
 import random
 import logging
 
 # Reddit https://praw.readthedocs.io/en/stable/pages/comment_parsing.html
-reddit = praw.Reddit(user_agent='Pollster')
-reddit.login('pollster_bot', '1QA2WS3ed', disable_warning=True)
+reddit = {}
 default_subs = 'pollster_bot'
 bot_name = 'pollster_bot'
 version = '0.3b'
@@ -20,6 +20,14 @@ version = '0.3b'
 # Huffington post http://elections.huffingtonpost.com/pollster/api
 uri = 'http://elections.huffingtonpost.com/pollster/api/charts.json'
 
+
+def login():
+    log_in_credentials = load_json_file('data/login.json')
+    login_name = log_in_credentials['user']
+    login_password = log_in_credentials['password']
+    global reddit
+    reddit = praw.Reddit(user_agent='Pollster')
+    reddit.login(login_name, login_password, disable_warning=True)
 
 # Returns a dictionary of states.
 def load_json_file(filename):
@@ -198,7 +206,12 @@ def format_poll(poll):
     reply = ''
     reply += '\n\n***' + state + ' Poll:' + '***\n\n'
     reply += format_estimates(poll['estimates'])
+    datetime_string = poll['last_updated']
+    dt = parser.parse(datetime_string)
+    datetime_string = dt.strftime('%b %d %Y %I:%M%p')
+    reply += 'Date of poll: {} \n\n'.format(datetime_string)
     reply += r'^^Link ^^to ^^poll ^^' + str(poll['url'] + '\n\n')
+
 
     return reply
 
@@ -246,13 +259,13 @@ def bot_action(comment, abbrevs):
     try:
         comment.reply(response)
     except praw.errors.RateLimitExceeded:
-        logger.WARN("RateLimitExceeded!!! Response not posted!!!")
+        logger.warn("RateLimitExceeded!!! Response not posted!!!")
 
 
 def mainLoop():
     submissions = get_submissions(default_subs, submission_limit=100)
     for submission in submissions:
-        logger.info(u'Crawling Submission ' + str(submission.title))
+        logger.info(u'Crawling Submission ' + submission.title)
         time_start = time.time()
         comments = get_flat_comments(submission, comment_limit=None)
         for comment in comments:
@@ -261,12 +274,14 @@ def mainLoop():
                 bot_action(comment, abbrevs)
         time_end = time.time()
         crawl_time = int(time_end) - int(time_start)
-        crawl_string = 'Crawl time: ' + str(datetime.time(crawl_time))
+        crawl_string = 'Crawl time: ' + str(crawl_time) + ' seconds'
         logger.info(crawl_string)
 
 
 class MyDaemon(Daemon):
     def run(self):
+        #Login to reddit
+        login()
         while True:
             mainLoop()
 
@@ -286,6 +301,7 @@ if __name__ == "__main__":
             sys.exit(2)
         sys.exit(0)
     else:
-        mainLoop()
-        # print "usage: %s start|stop|restart" % sys.argv[0]
-        # sys.exit(2)
+        # login()
+        # mainLoop()
+        print "usage: %s start|stop|restart" % sys.argv[0]
+        sys.exit(2)
