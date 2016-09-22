@@ -16,6 +16,7 @@ reddit = {}
 default_subs = 'pollster_bot'
 bot_name = 'pollster_bot'
 version = '0.3b'
+touched_comment_ids = []
 
 # Huffington post http://elections.huffingtonpost.com/pollster/api
 uri = 'http://elections.huffingtonpost.com/pollster/api/charts.json'
@@ -72,6 +73,7 @@ fh.setFormatter(formatter)
 logger.addHandler(ch)
 logger.addHandler(fh)
 
+
 def get_greeting():
     return random.choice(greetings)
 
@@ -101,8 +103,17 @@ def get_flat_comments(submission, comment_limit=25):
     except requests.exceptions.ConnectionError:
         logger.error('Error fetching comments!')
         return None
-
     return praw.helpers.flatten_tree(submission.comments)
+
+
+def get_recent_comments(subreddit=default_subs):
+    comments = reddit.get_comments(subreddit)
+    return praw.helpers.flatten_tree(comments)
+
+
+def get_comments_with_helper(subreddit=default_subs):
+    comments = praw.helpers.comment_stream(reddit, subreddit)
+    return praw.helpers.flatten_tree(comments)
 
 
 # Gets polls from state, defaults to 2016-president race
@@ -155,20 +166,20 @@ def check_comment_for_dictionary_keys_and_values(comment, dictionary=states):
 
 
 def check_word_in_list_in_string(list, string):
-    '''
+    """
     Returns not None if a word in the list is contained in the string
     :param list:
     :param string:
     :return: None if list has no elements contained in string
-    '''
+    """
     stuff = [string for word in list if(word in string)]
     return stuff
 
 def header_huffington():
-    '''
+    """
     Builds a header for the huffington post output
     :return:
-    '''
+    """
     head = '\n ^^Polls ^^fetched ^^from ^^[http://elections.huffingtonpost.com/](http://elections.huffingtonpost.com/).\n\n'
     head += '***{}***\n\n'.format(get_greeting())
     head += '.\n\n'
@@ -177,10 +188,10 @@ def header_huffington():
 
 
 def footer():
-    '''
+    """
     Builds bot header
     :return:
-    '''
+    """
     foot = '^^Pollster ^^bot ^^ver. ^^{}'.format(version)
     foot += '\n\nSummon pollster bot by typing in Pollster_Bot and then any state or states.\n\nEx. Pollster Bot CA Texas Maine RI'
     foot += "\n\n***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).***"
@@ -211,8 +222,6 @@ def format_poll(poll):
     datetime_string = dt.strftime('%b %d %Y %I:%M%p')
     reply += 'Date of poll: {} \n\n'.format(datetime_string)
     reply += r'^^Link ^^to ^^poll ^^' + str(poll['url'] + '\n\n')
-
-
     return reply
 
 
@@ -222,21 +231,22 @@ def check_condition(comment):
     :param comment:
     :return: if we should act on the comment or not
     """
-    boolean_return = True
+    if comment.id in touched_comment_ids:
+        return False, None
     # First check for keywords in comment, for now we don't care about formatting after the keyword
     has_keyword = check_word_in_list_in_string(keywords, comment.body)
     if not has_keyword:
-        boolean_return = False
+        return False, None
     # Next we check if we have states or abbreviations
     abbrevs = check_comment_for_dictionary_keys_and_values(comment, states)
     if len(abbrevs) < 1:
-        boolean_return = False
+        return False, None
     if str(comment.author) == bot_name:
-        boolean_return = False
+        return False, None
     for reply in comment.replies:
         if str(reply.author) == bot_name:
-            boolean_return = False
-    return boolean_return, abbrevs
+            return False, None
+    return True, abbrevs
 
 
 def bot_action(comment, abbrevs):
@@ -251,23 +261,23 @@ def bot_action(comment, abbrevs):
 
     response += footer()
 
-    #log
-    log_out = ''
-    log_out += 'Time: {} \nAuthor: {} \nBody: {}\n States: {} \nResponse: {} \n'.format((datetime.timedelta(milliseconds=(time.time()))), comment.author, comment.body, abbrevs, response)
-    logger.info(log_out)
-
     try:
         comment.reply(response)
+        touched_comment_ids.append(comment.id)
+        # log
+        log_out = ''
+        log_out += 'Time: {} \nAuthor: {} \nBody: {}\n States: {} \nResponse: {} \n'.format((datetime.timedelta(milliseconds=(time.time()))), comment.author, comment.body, abbrevs, response)
+        logger.info(log_out)
     except praw.errors.RateLimitExceeded:
         logger.warn("RateLimitExceeded!!! Response not posted!!!")
 
 
-def mainLoop():
+def slow_loop():
     submissions = get_submissions(default_subs, submission_limit=100)
     for submission in submissions:
         logger.info(u'Crawling Submission ' + submission.title)
         time_start = time.time()
-        comments = get_flat_comments(submission, comment_limit=None)
+        comments = get_recent_comments(submission)
         for comment in comments:
             check, abbrevs = check_condition(comment)
             if check:
@@ -278,12 +288,23 @@ def mainLoop():
         logger.info(crawl_string)
 
 
+def main_loop():
+    for comment in get_recent_comments(default_subs):
+        check, abbrevs = check_condition(comment)
+        if check:
+            bot_action(comment, abbrevs)
+
+
 class MyDaemon(Daemon):
     def run(self):
-        #Login to reddit
-        login()
-        while True:
-            mainLoop()
+        run_forever()
+
+
+def run_forever():
+    # Login to reddit
+    login()
+    while True:
+        main_loop()
 
 
 if __name__ == "__main__":
@@ -303,8 +324,7 @@ if __name__ == "__main__":
             sys.exit(2)
         sys.exit(0)
     else:
-        # login()
-        # mainLoop()
+        run_forever()
         logger.info('Shutting down: Unknown command')
         print "usage: %s start|stop|restart" % sys.argv[0]
         sys.exit(2)
