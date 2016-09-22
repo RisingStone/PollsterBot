@@ -222,7 +222,7 @@ def bot_action(comment, abbrevs):
 
 
 def mainLoop():
-    submissions = get_submissions(default_subs, submission_limit=None)
+    submissions = get_submissions(default_subs, submission_limit=200)
     for submission in submissions:
         comments = get_flat_comments(submission, comment_limit=None)
         for comment in comments:
