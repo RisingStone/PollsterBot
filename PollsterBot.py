@@ -10,7 +10,7 @@ import random
 # Reddit https://praw.readthedocs.io/en/stable/pages/comment_parsing.html
 reddit = praw.Reddit(user_agent='Pollster')
 reddit.login('pollster_bot', '1QA2WS3ed', disable_warning=True)
-default_sub = 'Pollster_Bot'
+default_subs = 'pollster_bot'
 bot_name = 'pollster_bot'
 version = '0.3b'
 
@@ -38,6 +38,11 @@ losing = phrases['losing']
 # keywords to call the pollster bot
 keywords = load_json_file('data/keywords.json')['keywords']
 
+# subs
+subs = load_json_file('data/subs.json')['subs']
+for sub in subs:
+    default_subs += '+' + sub
+
 
 def get_greeting():
     return random.choice(greetings)
@@ -52,7 +57,7 @@ def get_losing(loser, points):
 
 
 # Gets all submissions in the subreddit as a generator.
-def get_submissions(subreddit=default_sub, submission_limit=25):
+def get_submissions(subreddit=default_subs, submission_limit=25):
     donald_submissions = reddit.get_subreddit(subreddit).get_hot(limit=submission_limit)
     return donald_submissions
 
@@ -217,7 +222,7 @@ def bot_action(comment, abbrevs):
 
 
 def mainLoop():
-    submissions = get_submissions(default_sub, submission_limit=None)
+    submissions = get_submissions(default_subs, submission_limit=None)
     for submission in submissions:
         comments = get_flat_comments(submission, comment_limit=None)
         for comment in comments:
@@ -246,6 +251,6 @@ if __name__ == "__main__":
             sys.exit(2)
         sys.exit(0)
     else:
-        #mainLoop()
-        print "usage: %s start|stop|restart" % sys.argv[0]
-        sys.exit(2)
+        mainLoop()
+        # print "usage: %s start|stop|restart" % sys.argv[0]
+        # sys.exit(2)
