@@ -30,8 +30,8 @@
       <file leaf-file-name="PollsterBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PollsterBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54160124" vertical-offset="405" max-vertical-offset="4395">
-              <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
+            <state vertical-scroll-proportion="0.33281004" vertical-offset="3673" max-vertical-offset="4395">
+              <caret line="259" column="99" selection-start-line="259" selection-start-column="99" selection-end-line="259" selection-end-column="99" />
               <folding>
                 <element signature="e#26#37#0" expanded="true" />
               </folding>
@@ -509,10 +509,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PollsterBotLog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PollsterBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54160124" vertical-offset="405" max-vertical-offset="4395">
-          <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
+        <state vertical-scroll-proportion="0.33281004" vertical-offset="3673" max-vertical-offset="4395">
+          <caret line="259" column="99" selection-start-line="259" selection-start-column="99" selection-end-line="259" selection-end-column="99" />
           <folding>
             <element signature="e#26#37#0" expanded="true" />
           </folding>

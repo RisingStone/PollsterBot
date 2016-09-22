@@ -257,7 +257,7 @@ def mainLoop():
             if check:
                 bot_action(comment, abbrevs)
         time_end = time.time()
-        crawl_time = 'Crawl time: ' + datetime.timedelta(milliseconds=(time_end - time_start))
+        crawl_time = 'Crawl time: ' + str(datetime.timedelta(milliseconds=(time_end - time_start)))
         logging.info(crawl_time)
         print crawl_time
 
