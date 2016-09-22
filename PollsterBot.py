@@ -91,6 +91,7 @@ def get_flat_comments(submission, comment_limit=25):
     try:
         submission.replace_more_comments(limit=comment_limit, threshold=0)
     except requests.exceptions.ConnectionError:
+        logger.error('Error fetching comments!')
         return None
 
     return praw.helpers.flatten_tree(submission.comments)
@@ -249,7 +250,7 @@ def bot_action(comment, abbrevs):
 
 
 def mainLoop():
-    submissions = get_submissions(default_subs, submission_limit=200)
+    submissions = get_submissions(default_subs, submission_limit=100)
     for submission in submissions:
         logger.info(u'Crawling Submission ' + str(submission.title))
         time_start = time.time()
@@ -270,8 +271,9 @@ class MyDaemon(Daemon):
             mainLoop()
 
 
+
 if __name__ == "__main__":
-    daemon = MyDaemon('/tmp/daemon-example.pid')
+    daemon = MyDaemon('/tmp/daemon-pollster.pid')
     if len(sys.argv) == 2:
         if 'start' == sys.argv[1]:
             daemon.start()
