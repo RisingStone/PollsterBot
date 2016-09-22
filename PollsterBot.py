@@ -84,7 +84,11 @@ def get_comments(submission, comment_limit=25):
 
 
 def get_flat_comments(submission, comment_limit=25):
-    submission.replace_more_comments(limit=comment_limit, threshold=0)
+    try:
+        submission.replace_more_comments(limit=comment_limit, threshold=0)
+    except requests.exceptions.ConnectionError:
+        return None
+
     return praw.helpers.flatten_tree(submission.comments)
 
 
