@@ -1,0 +1,19 @@
+{
+  "greeting": [
+    "Greetings",
+    "Hello!",
+    "I'm back!",
+    "You rang?",
+    "Did someone say my name?",
+    "Here I am again."],
+  "winning": [
+    "{0} is up by {1} points!",
+    "Holding a {1} point lead, {0} cannot get complacent",
+    "{0} is ahead with a {1} point lead",
+    "While {1} percentage points up on their opponent, {0) still has a battle ahead of them"],
+  "losing": [
+    "Only down by {1} points, {0} can easily close the gap",
+    "With a large silent majority, {0}, can make solid ground on election while only being {1} points behind now",
+    "{1} points down {0} looks to make some surprises at the voting booths on game day.  "
+  ]
+}
