@@ -1,0 +1,29 @@
+2016-09-22 10:03:40,319 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 10:04:02,950 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 10:04:54,440 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 10:05:37,893 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 10:05:39,575 - Pollster_Bot - INFO - Crawl time: 02:00:00
+2016-09-22 10:05:39,576 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here
+2016-09-22 10:05:41,069 - Pollster_Bot - INFO - Crawl time: 02:00:00
+2016-09-22 10:05:41,069 - Pollster_Bot - INFO - Crawling Submission BLM rioters strip, beat, and drag a random white man through a parking garage: How is this not on the front page?
+2016-09-22 10:06:12,324 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 10:06:13,859 - Pollster_Bot - INFO - Crawl time: 00:00:00
+2016-09-22 10:06:13,859 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here
+2016-09-22 10:06:15,216 - Pollster_Bot - INFO - Crawl time: 00:00:00
+2016-09-22 10:06:15,216 - Pollster_Bot - INFO - Crawling Submission BLM rioters strip, beat, and drag a random white man through a parking garage: How is this not on the front page?
+2016-09-22 10:06:26,311 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 10:06:28,197 - Pollster_Bot - INFO - Crawl time: 00:00:00
+2016-09-22 10:06:28,197 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here
+2016-09-22 10:06:29,604 - Pollster_Bot - INFO - Crawl time: 00:00:00
+2016-09-22 10:06:29,604 - Pollster_Bot - INFO - Crawling Submission BLM rioters strip, beat, and drag a random white man through a parking garage: How is this not on the front page?
+2016-09-22 10:06:45,171 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 10:07:37,477 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 10:07:39,469 - Pollster_Bot - INFO - Crawl time: 00:00:00
+2016-09-22 10:07:39,469 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here
+2016-09-22 10:07:40,670 - Pollster_Bot - INFO - Crawl time: 00:00:00
+2016-09-22 10:07:40,670 - Pollster_Bot - INFO - Crawling Submission BLM rioters strip, beat, and drag a random white man through a parking garage: How is this not on the front page?
+2016-09-22 10:07:59,840 - Pollster_Bot - INFO - Crawling Submission Donald helps Hillary stand up at the debate
+2016-09-22 10:08:01,307 - Pollster_Bot - INFO - Crawl time: 02:00:00
+2016-09-22 10:08:01,307 - Pollster_Bot - INFO - Crawling Submission Test Pollster_Bot here
+2016-09-22 10:08:02,790 - Pollster_Bot - INFO - Crawl time: 01:00:00
+2016-09-22 10:08:02,790 - Pollster_Bot - INFO - Crawling Submission BLM rioters strip, beat, and drag a random white man through a parking garage: How is this not on the front page?

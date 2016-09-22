@@ -48,17 +48,21 @@ for sub in subs:
 
 # create logger
 logger = logging.getLogger('Pollster_Bot')
-logging.basicConfig(filename=os.path.join(os.path.dirname(__file__), 'PollsterBotLog.txt'))
 logger.setLevel(logging.INFO)
+# File handler set to DEBUG
+fh = logging.FileHandler(filename=os.path.join(os.path.dirname(__file__), 'PollsterBotLog.txt'))
+fh.setLevel(logging.DEBUG)
 # create console handler and set level to debug
 ch = logging.StreamHandler()
-ch.setLevel(logging.INFO)
+ch.setLevel(logging.DEBUG)
 # create formatter
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 # add formatter to ch
 ch.setFormatter(formatter)
-# add ch to logger
+fh.setFormatter(formatter)
+# add ch, fh to logger
 logger.addHandler(ch)
+logger.addHandler(fh)
 
 def get_greeting():
     return random.choice(greetings)
@@ -199,17 +203,17 @@ def format_poll(poll):
 
 
 def check_condition(comment):
-    '''
+    """
     Checks if we have a keyword in the comment, then if we have a list of states also.
     :param comment:
     :return: if we should act on the comment or not
-    '''
+    """
     boolean_return = True
     # First check for keywords in comment, for now we don't care about formatting after the keyword
-    hasKeyword = check_word_in_list_in_string(keywords, comment.body)
-    if not hasKeyword:
+    has_keyword = check_word_in_list_in_string(keywords, comment.body)
+    if not has_keyword:
         boolean_return = False
-    #Next we check if we have states or abbreviations
+    # Next we check if we have states or abbreviations
     abbrevs = check_comment_for_dictionary_keys_and_values(comment, states)
     if len(abbrevs) < 1:
         boolean_return = False
@@ -236,25 +240,18 @@ def bot_action(comment, abbrevs):
     #log
     log_out = ''
     log_out += 'Time: {} \nAuthor: {} \nBody: {}\n States: {} \nResponse: {} \n'.format((datetime.timedelta(milliseconds=(time.time()))), comment.author, comment.body, abbrevs, response)
-    logging.info(log_out)
+    logger.info(log_out)
 
     try:
         comment.reply(response)
     except praw.errors.RateLimitExceeded:
-        print 'Rate Limit Exceeded!!!'
-        logging.WARN("RateLimitExceeded!!! Response not posted!!!")
-
-    print comment.author
-    print comment.body
-    print abbrevs
-    print response
+        logger.WARN("RateLimitExceeded!!! Response not posted!!!")
 
 
 def mainLoop():
     submissions = get_submissions(default_subs, submission_limit=200)
     for submission in submissions:
-        logging.info('Crawling Submission ' + str(submission.title))
-        print 'Crawling Submission ' + str(submission.title)
+        logger.info(u'Crawling Submission ' + str(submission.title))
         time_start = time.time()
         comments = get_flat_comments(submission, comment_limit=None)
         for comment in comments:
@@ -262,9 +259,9 @@ def mainLoop():
             if check:
                 bot_action(comment, abbrevs)
         time_end = time.time()
-        crawl_time = 'Crawl time: ' + str(datetime.timedelta(milliseconds=(time_end - time_start)))
-        logging.info(crawl_time)
-        print crawl_time
+        crawl_time = int(time_end) - int(time_start)
+        crawl_string = 'Crawl time: ' + str(datetime.time(crawl_time))
+        logger.info(crawl_string)
 
 
 class MyDaemon(Daemon):
