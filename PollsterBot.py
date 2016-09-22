@@ -237,6 +237,7 @@ def bot_action(comment, abbrevs):
     try:
         comment.reply(response)
     except praw.errors.RateLimitExceeded:
+        print 'Rate Limit Exceeded!!!'
         logging.WARN("RateLimitExceeded!!! Response not posted!!!")
 
     print comment.author
@@ -248,11 +249,11 @@ def bot_action(comment, abbrevs):
 def mainLoop():
     submissions = get_submissions(default_subs, submission_limit=200)
     for submission in submissions:
-        print 'Crawling Submission ' + submission.title
+        logging.info('Crawling Submission ' + str(submission.title))
+        print 'Crawling Submission ' + str(submission.title)
         time_start = time.time()
         comments = get_flat_comments(submission, comment_limit=None)
         for comment in comments:
-            print 'Crawling comment ' + comment.body[0:200]
             check, abbrevs = check_condition(comment)
             if check:
                 bot_action(comment, abbrevs)
