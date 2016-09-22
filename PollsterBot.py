@@ -143,8 +143,9 @@ def footer():
     Builds bot header
     :return:
     '''
-    foot = 'Pollster bot ver. {}'.format(version)
-    foot += "\n\nIf you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg)."
+    foot = '^^Pollster bot ver. {}'.format(version)
+    foot += '\n\nSummon pollster bot by typing in Pollster_Bot and then any state or states.\nEx. Pollster Bot CA Texas Maine RI'
+    foot += "\n\n***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).***"
     return foot
 
 
