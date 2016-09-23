@@ -244,6 +244,7 @@ class PollsterBot(Daemon):
         for reply in comment.replies:
             if str(reply.author) == self.bot_name:
                 return False, None
+
         return True, abbrevs
 
     def bot_action(self, comment, abbrevs):
@@ -288,6 +289,8 @@ class PollsterBot(Daemon):
             check, abbrevs = self.check_condition(comment)
             if check:
                 self.bot_action(comment, abbrevs)
+                time.sleep(2)
+
 
     def run_forever(self):
         self.logger.info('Forever Loop started Pollster Bot ver. ' + self.version)
