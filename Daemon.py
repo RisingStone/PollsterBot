@@ -71,7 +71,7 @@ class Daemon:
                 """
                 # Check for a pidfile to see if the daemon already runs
                 try:
-                        pf = file(self.pidfile,'r')
+                        pf = file(self.pidfile, 'r')
                         pid = int(pf.read().strip())
                         pf.close()
                 except IOError:
