@@ -1,3 +1,5 @@
+from multiprocessing.synchronize import Lock
+
 __author__ = 'm.stanford'
 import praw
 import requests
@@ -41,6 +43,8 @@ class PollsterBot(Daemon):
         # add ch, fh to logger
         self.logger.addHandler(ch)
         self.logger.addHandler(fh)
+
+        self.lock = Lock()
 
         self.logger.info('Starting Pollster Bot ver. ' + self.version)
 
@@ -219,7 +223,7 @@ class PollsterBot(Daemon):
         datetime_string = poll['last_updated']
         dt = parser.parse(datetime_string)
         datetime_string = dt.strftime('%b %d %Y %I:%M%p')
-        reply += 'Date of poll: {} \n\n'.format(datetime_string)
+        reply += 'Date of poll: {}  ^^GMT\n\n'.format(datetime_string)
         reply += r'^^Link ^^to ^^poll ^^' + str(poll['url'] + '\n\n')
         return reply
 
@@ -248,6 +252,7 @@ class PollsterBot(Daemon):
         return True, abbrevs
 
     def bot_action(self, comment, abbrevs):
+        self.lock.acquire()
         response = self.header_huffington()
         done_reqs = []
         for abbrev in abbrevs:
@@ -268,6 +273,8 @@ class PollsterBot(Daemon):
             self.logger.info(log_out)
         except praw.errors.RateLimitExceeded:
             self.logger.warn("RateLimitExceeded!!! Response not posted!!!")
+        finally:
+            self.lock.release()
 
     def slow_loop(self):
         submissions = self.get_submissions(self.default_subs, submission_limit=100)

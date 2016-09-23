@@ -30,11 +30,9 @@
       <file leaf-file-name="PollsterBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PollsterBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44767442" vertical-offset="3798" max-vertical-offset="4905">
-              <caret line="284" column="42" selection-start-line="284" selection-start-column="42" selection-end-line="284" selection-end-column="42" />
-              <folding>
-                <element signature="e#26#37#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.6656977" vertical-offset="3978" max-vertical-offset="5010">
+              <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -418,9 +416,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4740">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -636,11 +632,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PollsterBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44767442" vertical-offset="3798" max-vertical-offset="4905">
-          <caret line="284" column="42" selection-start-line="284" selection-start-column="42" selection-end-line="284" selection-end-column="42" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.6656977" vertical-offset="3978" max-vertical-offset="5010">
+          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
