@@ -23,7 +23,7 @@ class PollsterBot(Daemon):
         self.reddit = {}
         self.default_subs = 'pollster_bot'
         self.bot_name = 'pollster_bot'
-        self.version = '0.3b'
+        self.version = '1.0'
         self.touched_comment_ids = []
 
         # create logger
@@ -196,9 +196,9 @@ class PollsterBot(Daemon):
         Builds bot header
         :return:
         """
-        foot = '^^Pollster ^^bot ^^ver. ^^{}'.format(self.version)
-        foot += '\n\nSummon pollster bot by typing in Pollster_Bot and then any state or states.\n\nEx. Pollster Bot CA Texas Maine RI'
-        foot += "\n\n***If you have any feedback on this bot then [Click Here](http://i.imgur.com/YFIri5g.jpg).***"
+        foot = '\n\nSummon pollster bot by typing in Pollster_Bot and then any state or states.\n\nEx. Pollster Bot CA Texas Maine RI visit [/r/Pollster_Bot](https://www.reddit.com/r/Pollster_Bot/) for more info'
+        foot += "\n\n***If you have any feedback on this bot please [Click Here](http://i.imgur.com/YFIri5g.jpg).***"
+        foot += '^^Pollster ^^bot ^^ver. ^^{}'.format(self.version)
         return foot
 
     @staticmethod

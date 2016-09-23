@@ -30,8 +30,8 @@
       <file leaf-file-name="PollsterBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PollsterBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3895349" vertical-offset="3543" max-vertical-offset="5010">
-              <caret line="263" column="0" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.42688912" vertical-offset="2535" max-vertical-offset="5010">
+              <caret line="198" column="100" selection-start-line="198" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/data/keywords.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-              <caret line="1" column="137" selection-start-line="1" selection-start-column="137" selection-end-line="1" selection-end-column="137" />
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="139" />
               <folding />
             </state>
           </provider>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Daemon.py" />
         <option value="$PROJECT_DIR$/data/login.json" />
-        <option value="$PROJECT_DIR$/PollsterBot.py" />
         <option value="$PROJECT_DIR$/data/subs.json" />
+        <option value="$PROJECT_DIR$/PollsterBot.py" />
       </list>
     </option>
   </component>
@@ -580,14 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/keywords.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-          <caret line="1" column="137" selection-start-line="1" selection-start-column="137" selection-end-line="1" selection-end-column="137" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/states.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="930">
@@ -630,10 +622,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/keywords.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PollsterBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3895349" vertical-offset="3543" max-vertical-offset="5010">
-          <caret line="263" column="0" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.42688912" vertical-offset="2535" max-vertical-offset="5010">
+          <caret line="198" column="100" selection-start-line="198" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
           <folding />
         </state>
       </provider>
